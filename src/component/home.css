@@ -1,0 +1,65 @@
+
+#main-index{
+    position: relative;
+    background-color: #1E1E1E;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+    #bg-main{
+        position: absolute;
+    }
+    #main{
+        position: relative;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        position: relative;
+        height: 950px;
+    }
+        #profile-img{
+        }
+            #profile-img img{
+                width: 100%;
+                height: 70%;
+            }
+
+        #all-text-main{
+
+        }
+            #main-text-head{
+                font-weight:400;
+
+            }
+                #main-text-head p{
+                    color: #007ACC;
+                    margin: 20px 0px;
+                    font-size: 60px;
+                    text-align: center;
+
+                }
+            #main-text{
+                font-weight: 100;
+                font-size: 24px;
+                margin: 2rem;
+            }
+                #main-text span{
+                    color: #007ACC;
+                    font-weight: 400;
+                }
+    #vector-main{
+        position: absolute;
+        left: 0px;
+        top:450px;
+    }
+        #vector-main img{
+            width: 100%;
+            border-radius: 20px;
+        }
+
+    #personal-part{
+        height: 400px;
+        background-color: #1E1E1E;
+    }
+    #skills-part{
+        background-color: #1E1E1E;
+        height: 1000px;
+    }

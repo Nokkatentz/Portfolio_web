@@ -1,0 +1,28 @@
+
+#container-icon{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+    #icon-in{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+        #icon-in img{
+            height: 70%;
+            width: 70%;
+        }
+        #text-in{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            #text-in p{
+                margin-top: 5px;
+                text-align: center;
+                font-size: 18px;
+                color: #007ACC;
+            }
+

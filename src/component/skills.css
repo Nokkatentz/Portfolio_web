@@ -1,0 +1,52 @@
+
+#skills-part{
+
+}
+    #skills-text-head{
+
+    }
+        #skills-text-head p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: #007ACC;
+        }
+
+    #line-bar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #line-bar div{
+            background-color: #D9D9D9;
+            border-radius: 20px;
+            height: 25px;
+            width: 70%;
+        }
+    #web-programming-text-head{
+
+    }
+        #web-programming-text-head p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: #fff;
+        }
+    #icon-web{
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+        #icon-sec1{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 3rem;
+        }
+        #icon-secc2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }

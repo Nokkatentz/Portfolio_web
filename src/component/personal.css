@@ -1,0 +1,31 @@
+#perso-part{
+    font-family: 'Karla', sans-serif;
+}
+    #perso-text-head{
+
+
+    }
+        #perso-text-head p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            color: #007ACC;
+        }
+    #text-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #439AD0;
+        height: 320px;
+        border-radius: 20px;
+    }
+
+        #text-info p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-weight: 100;
+            font-size: 24px;
+        }
