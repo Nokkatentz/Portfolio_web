@@ -1,5 +1,4 @@
 import "./home.css"
-import {Link} from "react-router-dom";
 import React from "react";
 import Personal from "./personal";
 import Skills from "./skills";
@@ -8,11 +7,11 @@ function Home() {
     return(
         <div id="main-index">
             <div id="bg-main">
-                <img src="/img/Ellipse 1.png"/>
+                <img src="/img/Ellipse 1.png" alt="gb-main"/>
             </div>
             <div id="main">
-                <div id="profile-img">
-                    <img src="/img/26 1.png" alt="profile-image"/>
+                <div id="profile">
+                    <img src="/img/26 1.png" alt="profile"/>
                 </div>
                 <div id="all-text-main">
                     <div id="main-text-head">
@@ -39,7 +38,7 @@ function Home() {
             </div>
             <div>
                 <div id="vector-main">
-                    <img src="/img/Group 12.png"/>
+                    <img src="/img/Group 12.png" alt="vector-bg"/>
                 </div>
             </div>
             

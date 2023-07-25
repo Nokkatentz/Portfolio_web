@@ -1,6 +1,6 @@
 import "./manage-icon-skills.css"
 
-function Manage_icon_skills(props){
+function ManageIconSkills(props){
     const{icon ,text} = props;
     return(
         <div id="container-icon">
@@ -13,4 +13,4 @@ function Manage_icon_skills(props){
         </div>
     );
 }
-export default Manage_icon_skills
+export default ManageIconSkills
