@@ -28,7 +28,7 @@ function Home() {
                             &emsp;&emsp;During my third year of studies, I had the opportunity to intern with a professor who specialized in IoT system development.
                              In this role, I was involved in developing applications using <span>Dart</span> and the <span>Flutter</span> framework to control IoT devices.<br/>
                              <br/>
-                            &emsp;&emsp;For my senior project, I worked on developing an <span>AI model</span> for detecting three-wheeled vehicles' maneuvers using <span>YOLOv5</span> and <span>DeepSort</span>. 
+                            &emsp;&emsp;For my senior project, I worked on developing an <span>AI model</span> for detecting Triple ridding by using <span>YOLOv5</span> and <span>DeepSort</span>. 
                             I successfully deployed the model in <span>PYQT5</span> to make it user-friendly.<br/>
                             <br/>
                             &emsp;&emsp;I am a self-driven individual who is always eager to learn and grow. I am open to embracing new ideas and perspectives from everyone around me.<br/>
