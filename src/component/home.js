@@ -2,6 +2,7 @@ import "./home.css"
 import React from "react";
 import Personal from "./personal";
 import Skills from "./skills";
+import Typewriters from "../other/typewriter";
 
 function Home() {
     return(
@@ -16,7 +17,7 @@ function Home() {
                 <div id="all-text-main">
                     <div id="main-text-head">
                         <p>
-                            Wellcome to My Portfolio
+                            <Typewriters/>
                         </p>
                     </div>
                     <div id="main-text">

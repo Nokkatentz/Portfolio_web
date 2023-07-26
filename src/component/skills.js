@@ -1,5 +1,5 @@
 import "./skills.css"
-import ManageIconSkills from "./manage-icon-skills";
+import ManageIconSkills from "../other/manage-icon-skills";
 import React from 'react';
 
 function Skills(){
