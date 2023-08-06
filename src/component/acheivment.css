@@ -1,0 +1,20 @@
+
+#acheiv-part{
+    border: 2px solid rgb(34, 192, 2);
+    width: auto;
+    height: 1800px;
+}
+    #acheiv-text-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: #007ACC;
+    }
+    #acheiv-content{
+        border: 2px solid red;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;   
+    }

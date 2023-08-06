@@ -23,17 +23,42 @@
             border-radius: 20px;
             height: 25px;
             width: 70%;
+            animation: blink-bar 3s linear infinite;  
         }
-    #web-programming-text-head{
-
+    #line-bar-end{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-        #web-programming-text-head p{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            color: #fff;
+        #line-bar-end div{
+            background-color: #D9D9D9;
+            border-radius: 20px;
+            height: 40px;
+            width: 100%;
+            animation: blink-bar 3s linear infinite;  
         }
+
+@keyframes blink-bar{
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+
+
+#text-head p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+}
     #icon-web{
         display: grid;
         grid-template-rows: auto auto;
@@ -43,10 +68,47 @@
         #icon-sec1{
             display: grid;
             grid-template-columns: auto auto auto;
-            column-gap: 3rem;
+            column-gap: 5rem;
         }
         #icon-secc2{
             display: flex;
             justify-content: center;
             align-items: center;
         }
+    #mobile-addi-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #mobile-part{
+            margin: 0 10rem;
+        }
+
+            #icon-mobile{
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 4rem;
+            }
+                        
+        #addi-part{
+            margin: 0 10rem;
+
+
+        }   
+
+            #icon-addi{
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 4rem;
+            }
+
+        #icon-Ai{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 4rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+

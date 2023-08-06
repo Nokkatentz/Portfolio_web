@@ -1,4 +1,4 @@
-import"./personal.css"
+import"./personal.css";
 
 function Personal(){
     return(
@@ -23,5 +23,5 @@ function Personal(){
             </div>
         </div>
     );
-}
+};
 export default Personal;

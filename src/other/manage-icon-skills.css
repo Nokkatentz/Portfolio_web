@@ -11,8 +11,8 @@
         align-items: center;
     }   
         #icon-in img{
-            height: 70%;
-            width: 70%;
+            height: 100px;
+            width: 100px;
         }
         #text-in{
             display: flex;
@@ -26,3 +26,12 @@
                 color: #007ACC;
             }
 
+        #icon-in2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }   
+            #icon-in2 img{
+                height: 70px;
+                width: 150px;
+            }

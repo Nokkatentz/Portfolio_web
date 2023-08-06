@@ -1,12 +1,13 @@
-import "./home.css"
+import "./home.css";
 import React from "react";
 import Personal from "./personal";
 import Skills from "./skills";
 import Typewriters from "../other/typewriter";
+import Acheivment from "./acheivment";
 
 function Home() {
     return(
-        <div id="main-index">
+        <div id="main-home">
             <div id="bg-main">
                 <img src="/img/Ellipse 1.png" alt="gb-main"/>
             </div>
@@ -49,7 +50,10 @@ function Home() {
             <div id="skills-part">
                 <Skills/>
             </div>
+            <div id="acheivment-part">
+                <Acheivment/>
+            </div>
         </div>
     );
-}
+};
 export default Home;
