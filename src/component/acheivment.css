@@ -18,3 +18,57 @@
         justify-content: center;
         align-items: center;   
     }
+        #soudemy{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #soudemy a{
+            width: 150px;
+            height: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        #uifry{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #uifry a{
+            width: 150px;
+            height: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+        }
+        #hack{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        #hack a{
+            width: 150px;
+            height: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+        }
