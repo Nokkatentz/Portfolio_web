@@ -1,8 +1,8 @@
 
 #acheiv-part{
-    border: 2px solid rgb(34, 192, 2);
+
     width: auto;
-    height: 1800px;
+    height: 1990px;
 }
     #acheiv-text-head{
         display: flex;
@@ -12,7 +12,7 @@
         color: #007ACC;
     }
     #acheiv-content{
-        border: 2px solid red;
+
         display: grid;
         grid-template-columns: auto auto;
         justify-content: center;
