@@ -33,7 +33,6 @@
         margin: 1rem;
     }
         #text p{
-
             display: flex;
             justify-content: center;
             align-items: center;
@@ -50,6 +49,12 @@
         #acheiv-img1 img{
             height: 300px;
             width: 600px;
+            transition: 1s;
+            transition-delay: 0.3s;
+        }
+        #acheiv-img1 img:hover{
+            margin: 3rem;
+            transform: scale(1.3);
         }
     #acheiv-img2{
         display: flex;
@@ -60,14 +65,25 @@
         #acheiv-img2 img{
             height: 200px;
             width: 600px;
+            transition: 1s;
+            transition-delay: 0.3s;
+        }
+        #acheiv-img2 img:hover{
+            margin: 3rem;
+            transform: scale(1.3);
         }
     #acheiv-img3{
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
         #acheiv-img3 img{
             height: 400px;
             width: 400px;
+            transition: 1s;
+            transition-delay: 0.3s;
+        }
+        #acheiv-img3 img:hover{
+            margin: 3rem;
+            transform: scale(1.3);
         }

@@ -1,0 +1,39 @@
+
+#footer-part{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+    #footer-text-head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #footer-text-head p{
+            font-size: 40px;
+            color: #007ACC;
+        }
+    .foot-content{
+        display: grid;
+        grid-template-columns: auto 370px;
+    }
+        .foot-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+        }
+        .foot-text{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 30px;
+            color: #fff;
+
+        }
+            .foot-text p{
+
+                text-align: end;
+            }

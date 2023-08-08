@@ -18,57 +18,62 @@
         justify-content: center;
         align-items: center;   
     }
-        #soudemy{
+        .content{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             margin-bottom: 20px;
         }
-        #soudemy a{
+        .content a{
             width: 150px;
             height: 30px;
             background-color: white;
+            color: #1E1E1E;
             display: flex;
             justify-content: center;
             align-items: center;
             text-align: center;
             text-decoration: none;
             border-radius: 15px;
+            transition: 0.5s;
         }
-        #uifry{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
+        .content a:hover{
+            background-color: #1E1E1E;
+            color: #fff;
+            border: 1px solid #fff;
         }
-        #uifry a{
-            width: 150px;
-            height: 30px;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 15px;
-        }
-        #hack{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        #hack a{
-            width: 150px;
-            height: 30px;
-            background-color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 15px;
-        }
+
+    #git{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    #git a{
+        width: 350px;
+        height: 30px;
+        background-color: #fff;
+        color: #1E1E1E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    #git a:hover{
+        background-color: #1E1E1E;
+        color: #fff;
+        padding: 2px 10px;
+        border: 2px solid #fff;
+    }
+    #git img{
+        transition: 0.5s;
+        height: 25px;
+        width: 30px;
+        margin-left: 10px;
+    }

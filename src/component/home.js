@@ -4,6 +4,7 @@ import Personal from "./personal";
 import Skills from "./skills";
 import Typewriters from "../other/typewriter";
 import Acheivment from "./acheivment";
+import Footer from "./footer";
 
 function Home() {
     return(
@@ -52,6 +53,9 @@ function Home() {
             </div>
             <div id="acheivment-part">
                 <Acheivment/>
+            </div>
+            <div id="footer-part">
+                <Footer/>
             </div>
         </div>
     );

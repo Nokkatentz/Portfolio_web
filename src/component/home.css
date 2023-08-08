@@ -4,6 +4,9 @@
     background-color: #1E1E1E;
     color: #fff;
     font-family: 'Karla', sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
 }
     #bg-main{
         position: absolute;
@@ -14,6 +17,7 @@
         grid-template-columns: 40% 60%;
         position: relative;
         height: 950px;
+        scroll-snap-align: center;
     }
         #profile{
         }
@@ -60,12 +64,19 @@
     #personal-part{
         height: 400px;
         background-color: #1E1E1E;
+
     }
     #skills-part{
         background-color: #1E1E1E;
         height: 1050px;
+
     }
     #acheivment-part{
         background-color: #1E1E1E;
         height: 2000px;
+
+    }
+    #footer-part{
+        background-color: #2D2D30;
+        height: 755px;
     }
