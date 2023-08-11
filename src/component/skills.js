@@ -62,10 +62,10 @@ function Skills(){
                         </p>
                     </div>
                     <div id="icon-addi">
-                        <div id="git">
+                        <div id="icongit">
                             <ManageIconSkills type = '1' icon = '/icon/code.png' text = 'Git,GitHub'/>
                         </div>
-                        <div id="maintane">
+                        <div id="maintain">
                             <ManageIconSkills type = '1' icon = '/icon/service.png' text = 'Computer Maintenance'/>
                         </div>
                     </div>

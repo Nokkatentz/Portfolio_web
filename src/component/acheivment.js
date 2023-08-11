@@ -29,7 +29,7 @@ function Acheivment(){
                     <ManageAcheivment type = '3' head = 'AI & Machiens learning' text = 'พัฒนา AI ที่ช่วยในการตรวจนับจำนวน เชื้อแบคทีเรียภายในถาดทดลอง โดยใช้ Custom data จากการ Lable ร่วมกับเพื่อนอีก 1 คน' img = '/img/bac.png'/>
                 </div>
             </div>
-            <div id='git'>
+            <div id='gitac'>
                 <a href='https://github.com/Nokkatentz'>Go to my GitHub repo</a>
                 
             </div>
